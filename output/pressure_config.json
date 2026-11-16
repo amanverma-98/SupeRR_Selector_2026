@@ -1,0 +1,13 @@
+{
+  "HIGH_THRESHOLD": 0.49375,
+  "LOW_THRESHOLD": 0.321875,
+  "W_PHASE": 0.15,
+  "W_WICKETS": 0.2,
+  "W_RUNRATE": 0.25,
+  "W_STAGE": 0.15,
+  "W_CLOSENESS": 0.25,
+  "total_deliveries": 199208,
+  "high_pressure_count": 47446,
+  "medium_pressure_count": 72021,
+  "low_pressure_count": 79741
+}
