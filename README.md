@@ -10,9 +10,8 @@
 
 ## 🌐 Live Interactive Dashboard on GitHub Pages
 
-The interactive quantitative war room dashboard is deployed directly via **GitHub Pages**:
 
-👉 **Dashboard:** `https://github.com/amanverma-98/SupeRR_Selector_2026/`  
+👉 **Dashboard:** `https://amanverma-98.github.io/SupeRR_Selector_2026/`  
 
 
 
@@ -113,8 +112,27 @@ PLAN A: BOWLING FIRST (Defend 20 Overs 1st)               PLAN B: BATTING FIRST 
 
 ---
 
-## 📊 Empirical Data Models (All 10 Charts)
+## 📊 Key Empirical Visualizations (Core Analytical Findings)
 
+### 1. Delivery Pressure Foundation & Match Phase Variance
+
+| Chart 1: Continuous Pressure Index Distribution | Chart 2: Pressure Leverage Across Match Phases |
+| :---: | :---: |
+| ![Continuous Pressure Index Distribution](output/charts/C1_pressure_distribution.png) | ![Pressure Leverage Across Match Phases](output/charts/C9_pressure_by_phase.png) |
+| **199,208 Deliveries Partitioned**: Low (<0.322, 40.0%), Medium (0.322–0.494, 36.2%), and **High Pressure (≥0.494, 23.8% — 47,446 balls)**. | **Phase Asymmetry**: Death overs (17–20) experience extreme mean leverage (**PI = 0.684**) compared to Middle (0.428) and Powerplay (0.320). |
+
+---
+
+### 2. Player Performance & Clutch Squeeze (Auction Targets)
+
+| Chart 3: Top 10 Batters High-Pressure Strike Rate Uplift | Chart 4: Top 10 Bowlers High-Pressure Economy Squeeze |
+| :---: | :---: |
+| ![Top 10 Batters High-Pressure SR Uplift](output/charts/C2_top10_batters_sr_updated.png) | ![Top 10 Bowlers High-Pressure Economy Squeeze](output/charts/C3_top10_bowlers_econ_updated.png) |
+| **Clutch Batting Acceleration**: Shubham Dubey accelerates from 148.6 to **173.7 HP SR** (+25.1 uplift). Shai Hope anchors at **59.7 HP Avg**. | **Death Overs Restriction**: Mohit Sharma chokes scoring to **8.38 HP Econ** across 151 balls (26 wickets). Sean Abbott restricts to **7.91 HP Econ**. |
+
+---
+
+### 📁 Complete Suite of 10 Analytical Visual Models
 All 10 visual models are embedded directly inside the dashboard and exported to [`output/charts/`](output/charts/):
 
 1. **`C1_pressure_distribution.png`**: Continuous Pressure Index (PI) Distribution across 199,208 Deliveries.
@@ -132,7 +150,7 @@ All 10 visual models are embedded directly inside the dashboard and exported to 
 
 ## ⚙️ Analytical Pipeline & Python Scripts
 
-All data science, modeling, visualization, and compilation scripts are neatly organized in [`scripts/`](scripts/):
+All data science, modeling, visualization, and compilation scripts tracked in the repository are organized in [scripts/](scripts/):
 
 ```
 scripts/
@@ -142,8 +160,6 @@ scripts/
 ├── 04_auction_target_pipeline.py       <- Rajasthan Royals auction pool filtering & squad gap mapping
 ├── 05_strict_auction_eligibility.py    <- BCCI overseas age/cap rules & uncapped gems identification
 ├── 06_generate_charts.py               <- Visualizations generator (10 high-resolution empirical charts)
-├── 07_create_presentation.py           <- PowerPoint deck generation (ignored in git)
-├── 08_generate_pdf_report.py           <- Formal 6-page PDF methodology report generation (ignored in git)
 └── 09_build_dashboard.py               <- Interactive web war room dashboard compilation (index.html)
 ```
 
@@ -156,8 +172,6 @@ python scripts/03_phase3_pressure_ranking.py
 python scripts/04_auction_target_pipeline.py
 python scripts/05_strict_auction_eligibility.py
 python scripts/06_generate_charts.py
-python scripts/07_create_presentation.py
-python scripts/08_generate_pdf_report.py
 python scripts/09_build_dashboard.py
 ```
 
@@ -173,15 +187,12 @@ python scripts/09_build_dashboard.py
 │   ├── ball_by_ball.csv                              <- 199,208 Deliveries
 │   ├── matches.csv                                   <- 843 Matches
 │   └── competition_team_player_mapping.csv           <- Verified Player ID Mapping
-├── scripts/                                          <- Complete Analytical Pipeline (Scripts 01 to 09)
+├── scripts/                                          <- Analytical & Modeling Pipeline (Scripts 01 to 06, 09)
 └── output/
-    ├── dashboard.html                                <- Dashboard Mirror
-    ├── RR_SupeRR_Selector_Presentation.pptx          <- Matchday Submission Presentation (Ignored in git)
-    ├── RR_SupeRR_Selector_Presentation_Final.pptx    <- Presentation Deck Final Master (Ignored in git)
-    ├── RR_SupeRR_Selector_Methodology_Report.pdf     <- Formal Methodology Report (6 Pages, Ignored in git)
-    ├── Methodology_Report.md                         <- Markdown Technical Report
-    ├── top10_auction_batters.csv                     <- Unstop Top 10 Batters Submission
-    ├── top10_auction_bowlers.csv                     <- Unstop Top 10 Bowlers Submission
+    ├── dashboard.html                                <- Standalone Dashboard Mirror
+    ├── Methodology_Report.md                         <- Technical Markdown Methodology Documentation
+    ├── top10_auction_batters.csv                     <- Unstop Top 10 Batters Submission Dropdown Data
+    ├── top10_auction_bowlers.csv                     <- Unstop Top 10 Bowlers Submission Dropdown Data
     ├── auction_targets_batters_ranked.csv            <- Ranked Eligible Batter Pool
     ├── auction_targets_bowlers_ranked.csv            <- Ranked Eligible Bowler Pool
     ├── pressure_config.json                          <- Continuous Model Hyperparameters
