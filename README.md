@@ -12,23 +12,9 @@
 
 The interactive quantitative war room dashboard is deployed directly via **GitHub Pages**:
 
-👉 **Live URL:** `https://<your-username>.github.io/<repository-name>/`  
-*(Or open [`index.html`](index.html) locally in any web browser)*
+👉 **Dashboard:** `https://github.com/amanverma-98/SupeRR_Selector_2026/`  
 
-### 🚀 Deploying to GitHub Pages in 30 Seconds:
-1. Push this repository to your GitHub account:
-   ```bash
-   git init
-   git add .
-   git commit -m "feat: RR SupeRR Selector IPL 2027 Strategy & Dashboard"
-   git branch -M main
-   git remote add origin https://github.com/<your-username>/<your-repo-name>.git
-   git push -u origin main
-   ```
-2. On GitHub, navigate to **Settings** → **Pages**.
-3. Under **Build and deployment** → **Source**, select **Deploy from a branch**.
-4. Choose **Branch: `main`** and **Folder: `/ (root)`**, then click **Save**.
-5. Your interactive dashboard is live instantly! `index.html` is self-contained with zero external build steps or dependencies.
+
 
 ---
 
@@ -217,4 +203,4 @@ $$\text{PBoS} = \left[ 0.45 \cdot \left(\frac{8.5}{\text{Econ}_{\text{hp}}}\righ
 
 ---
 
-*Authored for Rajasthan Royals Strategy Group — SupeRR Selector Season 2 (Round 1).*
+### Author - Aman Verma(AI Engineer)
