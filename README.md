@@ -8,7 +8,7 @@
 
 ---
 
-## 🌐 Live Interactive Dashboard on GitHub Pages
+## 🌐 Live Interactive Dashboard
 
 
 👉 **Dashboard:** `https://amanverma-98.github.io/SupeRR_Selector_2026/`  
