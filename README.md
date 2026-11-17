@@ -1,6 +1,5 @@
 # 🏆 Rajasthan Royals — SupeRR Selector Season 2
 ### Quantitative High-Pressure Analytics Engine & IPL 2027 Auction Strategy
-#### Featuring Official TATA IPL 2027 Retentions (19 Players Locked) & The Mohd. Shami Bowling Fortress
 
 [![Live Dashboard](https://img.shields.io/badge/Live%20Dashboard-GitHub%20Pages-ea1b86?style=for-the-badge&logo=google-chrome&logoColor=white)](#-live-interactive-dashboard-on-github-pages)
 [![Deliveries Analyzed](https://img.shields.io/badge/Deliveries%20Analyzed-199%2C208-001c58?style=for-the-badge&logo=databricks&logoColor=white)](#-empirical-foundation)
@@ -11,7 +10,7 @@
 
 ## 🌐 Live Interactive Dashboard
 
-👉 **Live Interactive Web Application:** `https://amanverma-98.github.io/SupeRR_Selector_2026/`
+👉 **Live Interactive Web Application:** (https://amanverma-98.github.io/SupeRR_Selector_2026/)
 
 ---
 
