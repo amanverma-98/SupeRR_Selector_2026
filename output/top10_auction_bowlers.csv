@@ -1,11 +1,11 @@
 rank,player_name,player_id,quota_tier,uncapped_status,role,all_econ,hp_econ,hp_wkts,PBoS_final
-1,Mohit Sharma,2878,Indian Core,Indian Veteran,Direct Death Pace Cure (Saves OS slot),9.67,8.38,26,0.7179
-2,Sean Abbott,1389,Overseas (IPL: SRH),Proven IPL Pacer,Hard-Length Pace All-Rounder,9.96,7.89,8,0.8695
-3,Brijesh Sharma,67036,Indian Core,Indian Uncapped (RR),Middle Squeeze Spinner (7.19 HP Econ),9.13,7.19,4,0.824
-4,Michael Bracewell,6512,Overseas (IPL: RCB),Proven IPL Star,Off-Spin Choke vs Left-Handers,8.08,6.39,10,0.775
-5,Shamar Joseph,47050,Overseas (IPL: LSG),Proven IPL Express,150+ km/h Express Pace Backup for Archer,10.31,8.84,12,0.5973
-6,Sushant Mishra,7269,Indian Core,Indian Uncapped (GT/RR),Left-Arm Express Fast (7.41 HP Econ),8.68,7.41,2,0.651
-7,Mohammad Nabi,1107,Overseas (IPL: SRH/MI),Proven IPL Veteran,Powerplay / Middle Spin Controller,8.48,7.04,9,0.7249
-8,Tabraiz Shamsi,4237,Overseas (IPL: RR),Proven IPL Spinner,Attacking Wrist Spinner (8.40 HP Econ),9.64,8.4,8,0.5678
-9,Kumar Kartikeya Singh,7574,Indian Core,Indian Uncapped (MI/RR),Left-Arm Mystery Spin (5 HP Wkts),8.52,9.72,5,0.485
-10,Riley Meredith,5940,Overseas (IPL: MI),Proven IPL Express,Hit-the-Deck Express Pacer (10 HP Wkts),9.41,8.45,10,0.5073
+1,Mohit Sharma,2878,Indian Core,Indian Veteran (GT),Elite Death Knuckleball & Pacing IQ (Shami/Sandeep Backup),9.67,8.38,26,0.7179
+2,Sean Abbott,1389,Overseas (IPL: SRH),Proven IPL Pacer,Hard-Length Pace All-Rounder (#8 Bat),9.96,7.89,8,0.8695
+3,Michael Bracewell,6512,Overseas (IPL: RCB),Proven IPL Star,Off-Spin Choke vs Left-Handers & Finisher,8.08,6.39,10,0.775
+4,Shamar Joseph,47050,Overseas (IPL: LSG),Proven IPL Express,150+ km/h Express Pace Backup for Jofra Archer,10.31,8.84,12,0.5973
+5,Mohammad Nabi,1107,Overseas (IPL: SRH/MI),Proven IPL Veteran,Powerplay / Middle Spin Controller,8.48,7.04,9,0.7249
+6,Tabraiz Shamsi,4237,Overseas (IPL: RR),Proven IPL Spinner,Attacking Wrist Spinner Cover for Bishnoi,9.64,8.4,8,0.5678
+7,Riley Meredith,5940,Overseas (IPL: MI),Proven IPL Express,Hit-the-Deck Express Pacer (10 HP Wkts),9.41,8.45,10,0.5073
+8,FazalHaq Farooqi,7240,Overseas (IPL: SRH),Proven IPL Pacer,Left-Arm Swing & Death Yorker Cover for Burger,8.42,7.74,12,0.3352
+9,Matthew Humphreys,22471,Overseas (Emerging),Young Prodigy (<23),Slow Left-Arm Orthodox Choke (5.0 HP Econ),7.22,5.0,10,0.8855
+10,Kumar Kartikeya Singh,7574,Indian Core,Indian Uncapped (MI),Left-Arm Mystery Spin & Middle Squeeze,8.77,10.13,5,0.485

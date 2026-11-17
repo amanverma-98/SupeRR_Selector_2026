@@ -1,5 +1,6 @@
 # 🏆 Rajasthan Royals — SupeRR Selector Season 2
 ### Quantitative High-Pressure Analytics Engine & IPL 2027 Auction Strategy
+#### Featuring Official TATA IPL 2027 Retentions (19 Players Locked) & The Mohd. Shami Bowling Fortress
 
 [![Live Dashboard](https://img.shields.io/badge/Live%20Dashboard-GitHub%20Pages-ea1b86?style=for-the-badge&logo=google-chrome&logoColor=white)](#-live-interactive-dashboard-on-github-pages)
 [![Deliveries Analyzed](https://img.shields.io/badge/Deliveries%20Analyzed-199%2C208-001c58?style=for-the-badge&logo=databricks&logoColor=white)](#-empirical-foundation)
@@ -10,46 +11,59 @@
 
 ## 🌐 Live Interactive Dashboard
 
-
-👉 **Dashboard:** `https://amanverma-98.github.io/SupeRR_Selector_2026/`  
-
-
+👉 **Live Interactive Web Application:** `https://amanverma-98.github.io/SupeRR_Selector_2026/`
 
 ---
 
-## 📌 Executive Summary & Problem Scope
+## 📌 Executive Summary & Strategic Shift Post-Retentions
 
-This strategy directly addresses **Rajasthan Royals' squad building for the IPL 2027 Auction** by evaluating **199,208 deliveries** across **843 completed T20 matches** (IPL & T20I, 2022–2026). 
+This strategy integrates the official **Rajasthan Royals Retained Squad for TATA IPL 2027 (19 Players)** evaluated against **199,208 deliveries** across **843 completed T20 matches** (IPL & T20I, 2022–2026).
 
-Crude, aggregate T20 statistics (such as overall strike rates and career averages) flatten critical context. A boundary scored in a low-stakes 10th over is fundamentally different from a boundary struck when requiring 14 runs off 6 balls in an IPL Playoff. This engine calculates delivery-level leverage through a continuous **Pressure Index ($\text{PI} \in [0, 1]$)**, identifying the **10 most reliable auction targets** for batters and bowlers under extreme pressure ($\text{PI} \ge 0.494$, encompassing **47,446 high-pressure balls**).
+### ⚡ The Game-Changer: Mohd. Shami Joins the Royals
+The retention/trade of premier Indian strike bowler **Mohd. Shami** (IPL Purple Cap winner, lethal seam presentation, powerplay swing and death reverse-yorkers) fundamentally upgrades Rajasthan Royals' bowling unit:
+- Partnered with **Jofra Archer** (150+ km/h express pace) and **Sandeep Sharma** (death knuckleball specialist), RR's historical death-overs bowling bleed (Phase 3: 10.82 RPO) is **resolved internally by the retained pace attack**!
+- With **Ravi Bishnoi** (leg-spin) and **Ravindra Jadeja** (run-strangulation SLA) locked in, RR possesses one of the most balanced 20-over bowling attacks in T20 history.
 
-### 🎯 Critical RR Squad Voids Solved:
-1. **The #3 Anchor Void (Post-Samson)**:  
-   *Solution*: **Shai Hope** (59.7 HP Avg, 157.0 HP SR) [Overseas] OR **Atharwa Taide** (85.0 HP Avg, 149.1 HP SR) [Indian Uncapped Gem].
-2. **Death Overs Pace Bleed (10.76 RPO)**:  
-   *Solution*: **Mohit Sharma** (8.38 HP Econ, 26 HP Wickets across 151 balls) + **Sean Abbott** (7.91 HP Econ) + **Shamar Joseph** (150+ km/h express missile).
-3. **#7/#8 Lower-Order Tail Collapse**:  
-   *Solution*: **Shubham Dubey** (Vidarbha / RR: 173.7 HP SR across 99 balls, 25.3% boundary rate) + **Dunith Wellalage** (Age 21 SLA Prodigy: 164.6 HP SR).
+### 🎯 Primary Auction Mission: The #3 Anchor (Post-Samson Void)
+With explosive teenage prodigies **Yashasvi Jaiswal** and **Vaibhav Sooryavanshi** opening the batting, RR possesses immense early boundary potential but requires high-leverage stability at #3:
+1. **Option A (Overseas Anchor)**: **Shai Hope** (59.7 HP Avg, 157.0 HP SR) — classical anchor who paced Delhi Capitals and West Indies chases with surgical calm.
+2. **Option B (Indian Uncapped Anchor)**: **Atharwa Taide** (85.0 HP Avg, 149.1 HP SR) — fearless left-hander whose domestic status saves an overseas slot to unleash **Dual 150+ km/h express bowlers (Archer + Nandre Burger / Shamar Joseph)**!
+
+---
+
+## 📋 Rajasthan Royals Official Retained Squad (TATA IPL 2027)
+
+| Asset Class | Players Retained | Tactical Role in RR |
+| :--- | :--- | :--- |
+| **Indian Top-Order** | **Yashasvi Jaiswal**, **Vaibhav Sooryavanshi**, **Aman Rao Perala** | Aggressive powerplay openers and boundary enforcers |
+| **Middle-Order / Finishers** | **Riyan Parag (c)**, **Dhruv Jurel (wk)**, **Shubham Dubey**, **Yash Raj Punja**, **Donovan Ferreira ✈**, **Lhuan-dre Pretorius ✈** | Clutch middle-overs spin assault & death boundary finishing |
+| **Elite All-Rounders** | **Ravindra Jadeja**, **Dasun Shanaka ✈** | 4 overs of left-arm orthodox strangulation & middle-order spine |
+| **Frontline Pace Attack** | **Mohd. Shami**, **Jofra Archer ✈**, **Sandeep Sharma**, **Nandre Burger ✈**, **Sushant Mishra** | Unrivaled combination of upright seam, 150+ km/h express pace, and knuckleball yorkers |
+| **Spin Attack** | **Ravi Bishnoi**, **Manimaran Siddharth (T)***, **Brijesh Sharma** | Attacking wrist-spin, left-arm orthodox, and off-break depth |
+
+*Roster Capacity: 19 players retained out of 25 maximum (6 auction slots open). 5 Overseas retained out of 8 maximum (3 overseas auction slots open).*
 
 ---
 
 ## 🏏 Official Top 10 Auction Target Selections
+
+*(Excluding all 19 players already retained by Rajasthan Royals, including Shubham Dubey, Brijesh Sharma, and Sushant Mishra).*
 
 ### 1. Top 10 Pressure Batters (Auction Targets)
 *File: [`output/top10_auction_batters.csv`](output/top10_auction_batters.csv)*
 
 | Rank | Player Name | Player ID | Quota Tier | Tactical Role for RR | Base SR | HP SR | HP Avg | PBS Final |
 | :---: | :--- | :---: | :---: | :--- | :---: | :---: | :---: | :---: |
-| **1** | **Shubham Dubey** | `25139` | Indian Core | #6/#7 Death Boundary Destroyer (25.3% Bdry) | 148.6 | **173.7** | 34.4 | **1.7370** |
-| **2** | **Shai Hope** | `4369` | Overseas (DC) | Master #3 Tactical Anchor (Post-Samson Void) | 141.3 | **157.0** | **59.7** | **1.5702** |
-| **3** | **Atharwa Taide** | `6466` | Indian Core | Clutch Indian Anchor / Fearless Opener | 138.3 | **149.1** | **85.0** | **1.4912** |
-| **4** | **Dunith Wellalage** | `7052` | Overseas (SL) | Young Prodigy (<22 SLA All-Rounder) | 113.4 | **164.6** | 39.5 | **1.9551** |
-| **5** | **Jason Roy** | `1187` | Overseas (KKR)| Fearless Powerplay Enforcer Cover | 122.4 | **173.3** | 26.0 | **1.0236** |
-| **6** | **Gulbadin Naib** | `2214` | Overseas (DC) | Power Boundary Finisher & Seam Option | 121.6 | **158.2** | 43.5 | **1.2090** |
-| **7** | **Lalit Yadav** | `6671` | Indian Core | Indian #7 All-Round Spine & Off-Break | 104.9 | **128.4** | 18.7 | **0.8384** |
-| **8** | **Kane Williamson** | `1568` | Overseas (SRH)| Classical #3 Anchor & Master Tactician | 108.2 | **123.7** | 47.0 | **0.7850** |
-| **9** | **Suyash Prabhudessai**| `8085`| Indian Core | Clutch Domestic 360° Finisher Cover | 111.5 | **122.9** | 28.7 | **0.5602** |
-| **10**| **Matthew Wade** | `796` | Overseas (GT) | Clutch Wicketkeeper Death Finisher Cover | 128.6 | **125.0** | 21.0 | **0.5401** |
+| **1** | **Shai Hope** | `4369` | Overseas (DC) | **Master #3 Anchor (Post-Samson Void)**: 59.7 HP Avg, 157.0 HP SR | 141.3 | **157.0** | **59.7** | **1.5702** |
+| **2** | **Atharwa Taide** | `6466` | Indian Core (PBKS) | **Indian #3 Anchor / Opener**: 149.1 HP SR, 85.0 HP Avg! Saves an OS slot | 138.3 | **149.1** | **85.0** | **1.4912** |
+| **3** | **Dunith Wellalage** | `7052` | Overseas (SL) | **All-Round Prodigy (<22)**: 164.6 HP SR, 39.5 HP Avg; SLA bowler | 113.4 | **164.6** | 39.5 | **1.9551** |
+| **4** | **Jason Roy** | `1187` | Overseas (KKR) | **Powerplay Enforcer Cover**: 173.3 HP SR; rapid boundary starts | 122.4 | **173.3** | 26.0 | **1.0236** |
+| **5** | **Gulbadin Naib** | `2214` | Overseas (DC) | **Power Finisher & Seam Option**: 158.2 HP SR, 43.5 HP Avg in death overs | 121.6 | **158.2** | 43.5 | **1.2090** |
+| **6** | **Lalit Yadav** | `6671` | Indian Core (DC) | **Indian #7 All-Round Spine**: 128.4 HP SR; provides middle-overs balance | 104.9 | **128.4** | 18.7 | **0.8384** |
+| **7** | **Vijay Shankar** | `2877` | Indian Core (GT) | **Middle-Order Pace All-Rounder**: 151.0 HP SR, 29.0 HP Avg under pressure | 128.6 | **151.0** | 29.0 | **0.6113** |
+| **8** | **Kane Williamson** | `1568` | Overseas (SRH/GT) | **Classical #3 Tactical Anchor**: 123.7 HP SR, 47.0 HP Avg; calm chase control | 108.2 | **123.7** | 47.0 | **0.7850** |
+| **9** | **Suyash Prabhudessai**| `8085`| Indian Core (RCB) | **Clutch Domestic 360° Finisher**: 122.9 HP SR, 28.7 HP Avg | 111.5 | **122.9** | 28.7 | **0.5602** |
+| **10**| **Matthew Wade** | `796` | Overseas (GT) | **Clutch Left-Handed Finisher/WK**: 150.9 HP SR, 61.5 HP Avg | 132.7 | **150.9** | 61.5 | **0.5789** |
 
 ---
 
@@ -58,56 +72,54 @@ Crude, aggregate T20 statistics (such as overall strike rates and career average
 
 | Rank | Player Name | Player ID | Quota Tier | Tactical Role for RR | Base Econ | HP Econ | HP Wkts | PBoS Final |
 | :---: | :--- | :---: | :---: | :--- | :---: | :---: | :---: | :---: |
-| **1** | **Mohit Sharma** | `2878` | Indian Core | Fixes RR Death Bleed (Knuckleball Closer) | 8.95 | **8.38** | **26** | **2.1485** |
-| **2** | **Sean Abbott** | `1389` | Overseas (SRH)| Death Overs Restrictor & Boundary Hitter | 8.98 | **7.91** | **15** | **1.9472** |
-| **3** | **Brijesh Sharma** | `67036`| Indian Core | Uncapped Mystery Spin (7.19 HP Econ) | 7.64 | **7.19** | 9 | **1.6373** |
-| **4** | **Michael Bracewell** | `6512` | Overseas (RCB)| Off-Spin Choke & Clutch Lower Batter | 7.39 | **7.50** | 14 | **1.3410** |
-| **5** | **Shamar Joseph** | `47050`| Overseas (LSG)| 150+ km/h Raw Express Pace Weapon | 8.65 | **7.42** | 12 | **1.2580** |
-| **6** | **Sushant Mishra** | `7269` | Indian Core | Left-Arm Fast-Medium Knuckleballer | 8.79 | **8.05** | 11 | **0.9854** |
-| **7** | **Mohammad Nabi** | `1107` | Overseas (MI) | Powerplay / Middle Spin Controller | 8.48 | **7.04** | 9 | **0.7249** |
-| **8** | **Tabraiz Shamsi** | `4237` | Overseas (RR) | Attacking Left-Arm Wrist Spinner | 9.64 | **8.40** | 8 | **0.5678** |
-| **9** | **Kumar Kartikeya**| `7574` | Indian Core | Left-Arm Mystery Spin & Control | 8.52 | **9.72** | 5 | **0.4850** |
-| **10**| **Riley Meredith** | `5940` | Overseas (MI) | Hit-the-Deck Express Pacer (10 HP Wkts) | 9.41 | **8.45** | 10 | **0.5073** |
+| **1** | **Mohit Sharma** | `2878` | Indian Core (GT) | **Death Knuckleball IQ (Workload Cover for Shami/Sandeep)**: 26 HP Wkts | 9.67 | **8.38** | **26** | **0.7179** |
+| **2** | **Sean Abbott** | `1389` | Overseas (SRH) | **Hard-Length Pace All-Rounder**: 7.89 HP Econ; bats down to #8 | 9.96 | **7.89** | 8 | **0.8695** |
+| **3** | **Michael Bracewell** | `6512` | Overseas (RCB) | **Off-Spin Choke vs LHB & Finisher**: 6.39 HP Econ (10 HP Wkts) | 8.08 | **6.39** | 10 | **0.7750** |
+| **4** | **Shamar Joseph** | `47050`| Overseas (LSG) | **150+ km/h Express Pace Backup for Jofra Archer**: 8.84 HP Econ (12 Wkts) | 10.31 | **8.84** | 12 | **0.5973** |
+| **5** | **Mohammad Nabi** | `1107` | Overseas (MI) | **Powerplay / Middle Spin Controller**: 7.04 HP Econ across 186 balls | 8.48 | **7.04** | 9 | **0.7249** |
+| **6** | **Tabraiz Shamsi** | `4237` | Overseas (RR) | **Attacking Wrist Spinner Cover for Bishnoi**: 8.40 HP Econ (8 HP Wkts) | 9.64 | **8.40** | 8 | **0.5678** |
+| **7** | **Riley Meredith** | `5940` | Overseas (MI) | **Hit-the-Deck Express Pacer**: 10 HP Wkts at 8.45 HP Econ | 9.41 | **8.45** | 10 | **0.5073** |
+| **8** | **FazalHaq Farooqi** | `7240` | Overseas (SRH) | **Left-Arm Swing & Death Yorker Cover for Burger**: 7.74 HP Econ | 8.42 | **7.74** | 12 | **0.3352** |
+| **9** | **Matthew Humphreys** | `22471`| Overseas (Emerging)| **Slow Left-Arm Orthodox Choke**: 5.00 HP Econ (10 HP Wkts) | 7.22 | **5.00** | 10 | **0.8855** |
+| **10**| **Kumar Kartikeya**| `7574` | Indian Core (MI) | **Left-Arm Mystery Spin & Middle Squeeze**: 5 HP Wickets | 8.77 | **10.13** | 5 | **0.4850** |
 
 ---
 
-## 🛡️ Rajasthan Royals Strategic Tactical Blueprints
+## 🛡️ Rajasthan Royals Reconstructed Playing XI Combinations
 
-The dashboard provides a live **Tactical Blueprint Switcher** toggling between two elite team configurations:
+### Option A: Classical Anchor Balance (Featuring Mohd. Shami)
+- **Top Order**: Yashasvi Jaiswal (LHB) + Vaibhav Sooryavanshi (LHB) + **Shai Hope ✈** (Master #3 Anchor: 59.7 HP Avg).
+- **Middle Order**: Riyan Parag (c) + Dhruv Jurel (wk) + Ravindra Jadeja + **Shubham Dubey** (LHB Death Finisher).
+- **Frontline 20-Over Bowling Attack**: **Mohd. Shami (4)** + **Jofra Archer ✈ (4)** + **Sandeep Sharma (4)** + **Ravi Bishnoi (4)** + **Ravindra Jadeja (4)**.
+- **Quota Status**: Exactly **2 Overseas players** (Hope ✈, Archer ✈) — enormous tactical headroom!
 
-### Option A: Tactical Anchor Blueprint (Scoreboard Control)
-- **Top Order**: Yashasvi Jaiswal + **Vaibhav Sooryavanshi** (Key Prodigy Sensation) + **Shai Hope** (#3 Anchor: 59.7 HP Avg).
-- **Middle & Finish**: Riyan Parag (c) + Dhruv Jurel (wk) + Shimron Hetmyer + **Shubham Dubey** (173.7 HP SR).
-- **Bowling Attack**: Ravindra Jadeja + Dunith Wellalage + **Mohit Sharma** (Death Knuckleball: 8.38 Econ) + **Jofra Archer** (Express Strike).
-- *Tactical Rationale*: Guarantees anchor stability post-Samson, saving an overseas slot via Mohit Sharma to field Shai Hope.
-
-### Option B: Dual Express Pace Blueprint (Sheer Intimidation)
-- **Top Order**: Yashasvi Jaiswal + **Vaibhav Sooryavanshi** + **Atharwa Taide** (#3 Indian Anchor: 85.0 HP Avg).
-- **Middle & Finish**: Riyan Parag (c) + Dhruv Jurel (wk) + Shimron Hetmyer + **Shubham Dubey** (173.7 HP SR).
-- **Bowling Attack**: Ravindra Jadeja + Dunith Wellalage + **Shamar Joseph (150+ km/h)** + **Jofra Archer (150+ km/h)**.
-- *Tactical Rationale*: Unleashes **DUAL 150+ KM/H EXPRESS PACERS** in tandem. Playing Atharwa Taide as an Indian anchor unlocks the 4th overseas slot for Shamar Joseph.
+### Option B: Dual Express Pace Firepower (150+ km/h Battery)
+- **Top Order**: Yashasvi Jaiswal + Vaibhav Sooryavanshi + **Atharwa Taide** (Indian #3 Anchor: 85.0 HP Avg).
+- **Middle Order**: Riyan Parag (c) + Dhruv Jurel (wk) + Ravindra Jadeja + Shubham Dubey.
+- **Pace Intimidation**: **Jofra Archer ✈ (150+ km/h)** + **Nandre Burger / Shamar Joseph ✈ (145–150+ km/h)** + **Mohd. Shami** + **Sandeep Sharma** + **Ravi Bishnoi**.
+- **Quota Status**: Exactly **2 Overseas players** (Archer ✈, Burger/Joseph ✈) and 9 Indian players!
 
 ---
 
 ## 🔄 Cricket-Accurate Impact Player Architecture
 
-In strict adherence to BCCI regulations, substitutions are strictly **Indian for Indian** maintaining **7 Indians + 4 Overseas** at all times:
+In strict adherence to BCCI regulations, substitutions are strictly **Indian for Indian** maintaining legal playing numbers:
 
 ```
-PLAN A: BOWLING FIRST (Defend 20 Overs 1st)               PLAN B: BATTING FIRST (Set Target 1st)
-───────────────────────────────────────────               ───────────────────────────────────────
-[Innings 1: Bowling & Fielding]                           [Innings 1: Setting Target]
-• Starting XI: 5 Specialist Bowlers                       • Starting XI: Dubey starts at #7 for maximum
-  (Archer, Mohit, Bishnoi/Sharma, Jadeja, Wellalage)        batting depth to #8.
-• Dugout Bench: Shubham Dubey rests on bench              • Dugout Bench: Ravi Bishnoi rests on bench as
-  warming up for the run chase.                             designated defense weapon.
+PLAN A: BOWLING FIRST (20 Overs Defense)                  PLAN B: BATTING FIRST (Setting Target)
+─────────────────────────────────────────                 ──────────────────────────────────────
+[Innings 1: Bowling & Fielding]                           [Innings 1: Batting Phase]
+• Starting XI: 5 Frontline Bowlers                        • Starting XI: Dubey starts at #7 for maximum
+  (Shami, Archer, Sandeep, Bishnoi, Jadeja)                 batting depth and boundary acceleration.
+• Dugout Bench: Shubham Dubey rests on bench              • Dugout Bench: Sandeep Sharma rests on bench as
+  warming up for the run chase.                             designated death-overs weapon.
                    │                                                         │
                    ▼ [Innings Break: Impact Sub Executed]                    ▼ [Innings Break: Impact Sub Executed]
 [Innings 2: Run Chase]                                    [Innings 2: Bowling Defense]
-• IMPACT IN: Shubham Dubey enters at #7                   • IMPACT IN: Ravi Bishnoi enters as Bowler 5
-  (173.7 HP SR across 99 balls).                            (7.19 HP Econ across 86 balls).
-• SUBBED OUT: Ravi Bishnoi exits to dugout                • SUBBED OUT: Shubham Dubey exits to dugout
-  (4 overs completed in 1st Innings).                       (death boundary batting duty completed).
+• IMPACT IN: Shubham Dubey enters at #7                   • IMPACT IN: Sandeep Sharma enters as Bowler 5
+  (173.7 HP SR across 99 balls).                            (Death knuckleball specialist).
+• SUBBED OUT: Sandeep Sharma exits to dugout              • SUBBED OUT: Shubham Dubey exits to dugout
+  (4 overs of death bowling completed in Innings 1).        (Death boundary batting duty completed).
 ```
 
 ---
@@ -128,7 +140,7 @@ PLAN A: BOWLING FIRST (Defend 20 Overs 1st)               PLAN B: BATTING FIRST 
 | Chart 3: Top 10 Batters High-Pressure Strike Rate Uplift | Chart 4: Top 10 Bowlers High-Pressure Economy Squeeze |
 | :---: | :---: |
 | ![Top 10 Batters High-Pressure SR Uplift](output/charts/C2_top10_batters_sr_updated.png) | ![Top 10 Bowlers High-Pressure Economy Squeeze](output/charts/C3_top10_bowlers_econ_updated.png) |
-| **Clutch Batting Acceleration**: Shubham Dubey accelerates from 148.6 to **173.7 HP SR** (+25.1 uplift). Shai Hope anchors at **59.7 HP Avg**. | **Death Overs Restriction**: Mohit Sharma chokes scoring to **8.38 HP Econ** across 151 balls (26 wickets). Sean Abbott restricts to **7.91 HP Econ**. |
+| **Clutch Batting Acceleration**: Shai Hope anchors at **157.0 HP SR (59.7 HP Avg)**. Atharwa Taide delivers **149.1 HP SR and 85.0 HP Avg**. | **Death Overs Restriction**: Mohit Sharma chokes scoring to **8.38 HP Econ** across 151 balls (26 wickets). Sean Abbott restricts to **7.89 HP Econ**. |
 
 ---
 
@@ -214,4 +226,4 @@ $$\text{PBoS} = \left[ 0.45 \cdot \left(\frac{8.5}{\text{Econ}_{\text{hp}}}\righ
 
 ---
 
-### Author - Aman Verma(AI Engineer)
+### Author - Aman Verma (AI Engineer)

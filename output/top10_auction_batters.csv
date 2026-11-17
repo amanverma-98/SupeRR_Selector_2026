@@ -1,11 +1,11 @@
-rank,player_name,player_id,quota_tier,uncapped_status,role,all_sr,hp_sr,hp_avg,PBS_final
-1,Shubham Dubey,25139,Indian Core,Indian Uncapped,#6/#7 Power Finisher (25.3% Bdry),148.6,173.7,34.4,1.737
-2,Shai Hope,4369,Overseas (IPL: DC),Proven IPL Anchor,Master #3 Anchor (Post-Samson Void),141.3,157.0,59.7,1.5702
-3,Atharwa Taide,6466,Indian Core,Indian Uncapped,Indian #3 Anchor / Fearless Opener,138.3,149.1,85.0,1.4912
-4,Dunith Wellalage,7052,Overseas (SL),Young Prodigy (<22),Fixes #7 Tail Choke (SLA all-rounder),113.4,164.6,39.5,1.9551
-5,Jason Roy,1187,Overseas (IPL: KKR),Proven IPL Star,Fearless Powerplay Enforcer Cover,122.4,173.3,26.0,1.0236
-6,Gulbadin Naib,2214,Overseas (IPL: DC),Proven IPL Star,Power Boundary Finisher,121.6,158.2,43.5,1.209
-7,Lalit Yadav,6671,Indian Core,Indian Uncapped (DC),Indian #7 All-Round Spine & Off-Break,104.9,128.4,18.7,0.8384
-8,Kane Williamson,1568,Overseas (IPL: SRH/GT),Proven IPL Legend,Classical #3 Anchor & Master Tactician,108.2,123.7,47.0,0.785
-9,Suyash Prabhudessai,8085,Indian Core,Indian Uncapped (RCB),Clutch Domestic 360-Degree Finisher,111.5,122.9,28.7,0.5602
-10,Matthew Wade,796,Overseas (IPL: GT),Proven IPL Star,Left-Handed Clutch Pressure Finisher,132.7,150.9,61.5,0.5789
+rank,player_name,player_id,quota_tier,uncapped_status,role,all_sr,hp_sr,all_avg,hp_avg,PBS_final
+1,Shai Hope,4369,Overseas (IPL: DC),Proven IPL Anchor,Master #3 Anchor (Post-Samson Void),141.3,157.0,33.5,59.7,1.5702
+2,Atharwa Taide,6466,Indian Core,Indian Uncapped (PBKS),Indian #3 Anchor / Fearless Opener,138.3,149.1,28.9,85.0,1.4912
+3,Dunith Wellalage,7052,Overseas (SL),Young Prodigy (<22),Spin-Bowling All-Rounder / #7 Finisher,113.4,164.6,17.9,39.5,1.9551
+4,Jason Roy,1187,Overseas (IPL: KKR),Proven IPL Star,Fearless Powerplay Enforcer Cover,122.4,173.3,25.8,26.0,1.0236
+5,Gulbadin Naib,2214,Overseas (IPL: DC),Proven IPL Star,Power Boundary Finisher & Seam Cover,121.6,158.2,21.6,43.5,1.209
+6,Lalit Yadav,6671,Indian Core,Indian Uncapped (DC),Indian #7 All-Round Spine & Off-Break,104.9,128.4,18.2,18.7,0.8384
+7,Vijay Shankar,2877,Indian Core,Proven IPL Veteran (GT),Experienced Middle-Order Pace All-Rounder,128.6,151.0,26.1,29.0,0.6113
+8,Kane Williamson,1568,Overseas (IPL: SRH/GT),Proven IPL Legend,Classical #3 Anchor & Tactical Mind,108.2,123.7,29.5,47.0,0.785
+9,Suyash Prabhudessai,8085,Indian Core,Indian Uncapped (RCB),Clutch Domestic 360-Degree Finisher,111.5,122.9,14.0,28.7,0.5602
+10,Matthew Wade,796,Overseas (IPL: GT),Proven IPL Star,Left-Handed Clutch Pressure Finisher/WK,132.7,150.9,32.9,61.5,0.5789
